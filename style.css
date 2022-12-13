@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+}
+.navdiv{
+    /* border: 2px solid blue; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+/* border: 2px solid darkorchid; */
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.same{
+    /* border: 2px solid greenyellow; */
+    background-color: #281b12;
+    color: white;
+    height: 28%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.logo{
+    /* border: 2px solid greenyellow; */
+    height: 90%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 100%;
+    width: 50%;
+}
+.containediv{
+    /* border: 2px solid blue; */
+    height: 80%;
+    width: 100%;
+}
+.divIMG{
+    height: 100%;
+    width: 100%;
+}
+.topcontaine{
+    /* border: 2px solid black; */
+    height: 60%;
+    width: 100%;
+    display: flex;
+}
+.topcontaine-div1st{
+/* border: 2px solid black3 */
+height:100% ;
+width: 45%;
+display: flex;
+flex-wrap: wrap;
+}
+.chaild-div1st{
+border: 3px solid black;
+height: 40%;
+width: 40%;
+}
+.chaild-div2nd{
+border: 3px solid black;
+height: 40%;
+width: 60%;
+}
+.chaild-div3rd{
+border: 3px solid black;
+height:60% ;
+width: 55%;
+}
+.chaild-div4th{
+border: 3px solid black;
+height: 60%;
+width: 45%;
+}
+
+.topcontaine-div2nd{
+ border: 3px solid black;   
+ height:100% ;
+ width: 20%;
+}
+.topcontaine-div3rd{
+border: 3px solid black;
+height: 100%;
+width: 35%;
+}
+.bottomcontaine{
+    /* border: 2px solid black; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+.bottomcontaine-div1st{
+border: 3px solid black;
+height: 100%;
+width:30% ;
+}
+.bottomcontaine-div2nd{
+border: 3px solid black;
+height: 100%;
+width:40% ;
+}
+.bottomcontaine-div3rd{
+border: 3px solid black;
+height: 100%;
+width: 30%;
+}
+.footer{
+    /* border: 2px solid blue; */
+    background-color:#e0dbd6 ;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftside{
+/* border: 2px solid red; */
+height: 100%;
+width: 35%;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+
+}
+.rightside{
+/* border: 2px solid red; */
+height: 100%;
+width: 10%;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
